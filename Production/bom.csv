@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4, C5, C6",0805,6,220p,
+"D1, D2, D3, D4, D5, D6",0603,6,LED,
+"J1, J2",TerminalBlock_TE_282834-7_1x07_P2.54mm_Horizontal,2,Screw_Terminal_01x07,
+"Q1, Q2, Q3, Q4, Q5, Q6",SOT-23,6,MMBT2222A,
+"R1, R13, R19, R20, R21, R7",0805,6,1k,
+"R10, R14, R16, R2, R22, R23, R24, R28, R29, R30, R4, R8",0805,12,10k,
+"R11, R17, R31, R33, R35, R6",0805,6,2.4k,
+"R12, R18, R32, R34, R36, R5",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,620,
+"R15, R25, R26, R27, R3, R9",0805,6,100k,
+"U1, U2, U3, U4, U5, U6",SSOP-4_4.4x2.6mm_P1.27mm,6,VOS618A,
