@@ -34,8 +34,26 @@ Each module monitors the input of a device and its output, the basic function is
 
 Since the devices are in series, downstream devices wont get any power and no LEDs will be turned on, effectively the system will only light up the most upstream failure point so the driver can focus on reseting it.
 
+## Design Choices
+
+**VOS618A**
+- We se an optocoupler to galvanically isolate the input and output between the device, any failure here could bypass the safety device and bring power to the car.
+- We use the VOS618A for its high isolation, suitable CTR, and common/cheap availability.
+
+**MMBT2222A**
+- We use the BJT here as the driver for the LEDs, sinking their high current.
+- we use the MMBT2222A specifically due to its high sinking capacity (600mA & 300mW).z
+
 ## Potential Future Revisions
 
 - Increase of possible devices for future safety systems with more than six devices.
 - Decrease power consumption (mainly from constantly sinking current through the optocoupler during normal operation)
 - adjustable resistor values for varying external LEDs??
+
+## Changelog
+
+**V1.0**
+- Initial Design
+- Complete Schematic
+- Routed PCB
+- Verified Behaviour    
